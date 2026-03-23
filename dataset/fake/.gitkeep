@@ -1,0 +1,16 @@
+# Fake Images Folder
+
+Place deepfake/AI-generated face images in this folder.
+
+## Labeling
+
+All images in this folder will automatically be labeled as:
+- **Class: Fake**
+- **Label: 1**
+
+## Tips
+
+- Include various deepfake generation methods (face swap, face reenactment, etc.)
+- Various quality levels help model robustness
+- Include both obvious and subtle manipulations
+- Match the diversity of your real images dataset

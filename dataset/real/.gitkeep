@@ -1,0 +1,16 @@
+# Real Images Folder
+
+Place real (genuine, unmanipulated) face images in this folder.
+
+## Labeling
+
+All images in this folder will automatically be labeled as:
+- **Class: Real**
+- **Label: 0**
+
+## Tips
+
+- Use clear, well-lit photographs
+- Include diverse faces (different ages, ethnicities, genders)
+- Various angles and expressions help model generalization
+- Avoid heavily filtered or edited (but not deepfake) images

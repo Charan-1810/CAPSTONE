@@ -1,0 +1,51 @@
+# =============================================================================
+# REQUIREMENTS.TXT - Python Dependencies for Deepfake Detection System
+# =============================================================================
+#
+# Install all dependencies with:
+#     pip install -r requirements.txt
+#
+# For GPU support (CUDA), install PyTorch separately:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+#
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Core ML Framework
+# -----------------------------------------------------------------------------
+torch>=2.0.0                    # PyTorch deep learning framework
+torchvision>=0.15.0             # Computer vision utilities for PyTorch
+
+# -----------------------------------------------------------------------------
+# Data Processing & Scientific Computing
+# -----------------------------------------------------------------------------
+numpy>=1.24.0                   # Numerical computing
+Pillow>=10.0.0                  # Image processing
+scikit-learn>=1.3.0             # Machine learning utilities (train_test_split, metrics)
+
+# -----------------------------------------------------------------------------
+# Visualization
+# -----------------------------------------------------------------------------
+matplotlib>=3.7.0               # Plotting library
+seaborn>=0.12.0                 # Statistical visualization
+
+# -----------------------------------------------------------------------------
+# Computer Vision
+# -----------------------------------------------------------------------------
+opencv-python>=4.8.0            # Image processing for Grad-CAM
+
+# -----------------------------------------------------------------------------
+# Web Application
+# -----------------------------------------------------------------------------
+streamlit>=1.28.0               # Web app framework
+
+# -----------------------------------------------------------------------------
+# Utilities
+# -----------------------------------------------------------------------------
+tqdm>=4.65.0                    # Progress bars
+
+# -----------------------------------------------------------------------------
+# LLM for Explainability
+# -----------------------------------------------------------------------------
+google-generativeai>=0.3.0      # Google Gemini API for text explanations
+python-dotenv>=1.0.0            # Load environment variables from .env file
