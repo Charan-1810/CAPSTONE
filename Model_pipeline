@@ -1,0 +1,26 @@
+INPUT (Video/Image)
+        ↓
+[1] Preprocessing
+    - Frame extraction
+    - Face detection
+    - Audio extraction
+
+        ↓
+[2] Feature Extraction
+    - Visual → Swin Transformer
+    - Frequency → FFT + CNN
+    - Audio → Wav2Vec 2.0
+
+        ↓
+[3] Fusion
+    - Concatenate features
+    - Cross-attention (optional)
+
+        ↓
+[4] Prediction
+    - Binary classifier (Fake / Real)
+
+        ↓
+[5] Explainability
+    - Grad-CAM (where)
+    - Rule-based reasoning (why)
